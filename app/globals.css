@@ -1,41 +1,17 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Reseta básico para garantir que o fundo seja o que você definir no React */
 html, body {
-  background-color: #0f0f0f;
-  color: #f5ebe0;
   margin: 0;
   padding: 0;
-  min-height: 100%;
-  overflow-x: hidden;
-}
-
-body {
-  background: #0f0f0f;
+  min-height: 100vh;
+  /* Removemos o background fixo aqui para o React assumir o controle */
   color: #f5ebe0;
   font-family: serif;
   overflow-x: hidden;
 }
 
-/* Glow base estilo VN */
+/* Glow base estilo VN (mantenha se você usa em outros lugares) */
 .glow {
   position: absolute;
   width: 600px;
