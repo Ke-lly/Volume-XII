@@ -24,7 +24,7 @@ export default function ChapterTwentyTwo() {
         chapterNumber="XXII"
         title="O Selo dos 22 Anos"
         subtitle="O ápice da sua jornada. Parabéns pelo seu dia, Carol!"
-        image="/images/22.jpeg"
+        image="/images/22.jpg"
         script={script}
         endingMessage="Eu tenho um orgulho infinito da mulher que você se tornou."
         prevUrl="/story/chapter-21"

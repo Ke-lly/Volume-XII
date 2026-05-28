@@ -16,7 +16,7 @@ export default function ChapterTwentyOne() {
         chapterNumber="XXI"
         title="A Véspera do Agora"
         subtitle="O ano que pavimentou o caminho para o seu grande dia de hoje."
-        image="/images/21.jpeg"
+        image="/images/21.jpg"
         script={script}
         endingMessage="Tudo o que você viveu até aqui te trouxe pronta para o presente."
         prevUrl="/story/chapter-20"

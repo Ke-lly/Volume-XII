@@ -16,7 +16,7 @@ export default function ChapterEleven() {
         chapterNumber="XI"
         title="Fones de Ouvido e Sintonia"
         subtitle="Quando o mundo ganha uma trilha sonora escolhida por você."
-        image="/images/11.jpeg"
+        image="/images/11.JPG"
         script={script}
         endingMessage="Sua vida sempre teve um ritmo lindo de se acompanhar."
         prevUrl="/story/chapter-10"

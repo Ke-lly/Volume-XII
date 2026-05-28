@@ -16,7 +16,7 @@ export default function ChapterSix() {
         chapterNumber="VI"
         title="A Mochila Maior que as Costas"
         subtitle="O primeiro dia de aula e o início de uma nova descoberta."
-        image="/images/6.jpeg"
+        image="/images/6.jpg"
         script={script}
         endingMessage="Seu caderno estava em branco, pronto para a história linda que você escreveria."
         prevUrl="/story/chapter-5"

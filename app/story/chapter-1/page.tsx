@@ -27,7 +27,7 @@ export default function ChapterOne() {
       chapterNumber="I"
       title="A Primeira Luz"
       subtitle="O começo silencioso de uma história inesquecível."
-      image="/images/1.jpeg"
+      image="/images/1.JPG"
       script={script}
       endingMessage="Toda grande história começa com uma pequena luz."
       nextUrl="/story/chapter-2"

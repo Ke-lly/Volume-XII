@@ -15,12 +15,13 @@ export default function CinematicImage({ src }: Props) {
       transition={{ duration: 1.8 }}
       className="relative w-full h-[700px] overflow-hidden rounded-[40px] mt-16"
     >
-      <Image
-        src={src}
-        alt=""
-        fill
-        className="object-cover"
-      />
+
+
+<img 
+  src={src} 
+  className="w-full h-full object-cover" // <-- Se estiver 'object-cover', ele corta a imagem para preencher.
+/>
+
 
       <div className="absolute inset-0 bg-black/30" />
     </motion.div>

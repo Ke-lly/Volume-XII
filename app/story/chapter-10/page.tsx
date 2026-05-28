@@ -16,7 +16,7 @@ export default function ChapterTen() {
         chapterNumber="X"
         title="Uma Década de Brilho"
         subtitle="O orgulho de dizer pela primeira vez: 'Eu já tenho 10 anos!'"
-        image="/images/10.jpeg"
+        image="/images/10.JPG"
         script={script}
         endingMessage="Dez anos de um sorriso que continuava mudando a nossa rotina."
         prevUrl="/story/chapter-9"

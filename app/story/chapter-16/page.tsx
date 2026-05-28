@@ -16,7 +16,7 @@ export default function ChapterSixteen() {
         chapterNumber="XVI"
         title="O Horizonte Logo Ali"
         subtitle="Quando os planos começam a ganhar formas e tamanhos reais."
-        image="/images/16.jpeg"
+        image="/images/16.JPG"
         script={script}
         endingMessage="Seus olhos sempre miraram as estrelas mais altas."
         prevUrl="/story/chapter-15"

@@ -16,7 +16,7 @@ export default function ChapterTwelve() {
         chapterNumber="XII"
         title="A Mudança de Órbita"
         subtitle="O início da transição e os primeiros passos fora da infância."
-        image="/images/12.jpeg"
+        image="/images/12.JPG"
         script={script}
         endingMessage="Crescer é desafiador, mas você sempre fez parecer poesia."
         prevUrl="/story/chapter-11"

@@ -16,7 +16,7 @@ export default function ChapterSeventeen() {
         chapterNumber="XVII"
         title="A Pressão do Amanhã"
         subtitle="A reta final da escola e a ansiedade boa de um recomeço."
-        image="/images/17.jpeg"
+        image="/images/17.jpg"
         script={script}
         endingMessage="Você superou cada teste e se preparou para o grande salto."
         prevUrl="/story/chapter-16"

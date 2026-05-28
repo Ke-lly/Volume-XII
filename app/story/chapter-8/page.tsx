@@ -16,7 +16,7 @@ export default function ChapterEight() {
         chapterNumber="VIII"
         title="Segredos de Parquinho"
         subtitle="Quando o relógio corria devagar e a única missão era ser feliz."
-        image="/images/8.jpeg"
+        image="/images/8.jpg"
         script={script}
         endingMessage="Aqueles dias de sol deixaram marcas lindas na sua história."
         prevUrl="/story/chapter-7"

@@ -15,7 +15,7 @@ export default function ChapterFour() {
       chapterNumber="IV"
       title="O Mundo dos Porquês"
       subtitle="Quando a curiosidade da Carol expandiu o tamanho da casa."
-      image="/images/4.jpeg"
+      image="/images/4.jpg"
       script={script}
       endingMessage="Nunca perca essa sua mania de querer entender o brilho do mundo."
       prevUrl="/story/chapter-3"

@@ -16,7 +16,7 @@ export default function ChapterTwenty() {
         chapterNumber="XX"
         title="Duas Décadas de História"
         subtitle="Celebrando vinte anos de uma existência iluminada."
-        image="/images/20.jpeg"
+        image="/images/20.jpg"
         script={script}
         endingMessage="Você mudou a nossa vida para melhor ao longo desses 20 anos."
         prevUrl="/story/chapter-19"

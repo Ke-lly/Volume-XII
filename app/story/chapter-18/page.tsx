@@ -16,7 +16,7 @@ export default function ChapterEighteen() {
         chapterNumber="XVIII"
         title="A Chave do Universo"
         subtitle="A chegada dos dezoito anos e o passaporte para a vida adulta."
-        image="/images/18.jpeg"
+        image="/images/18.JPG"
         script={script}
         endingMessage="O mundo se tornou oficialmente o seu parquinho."
         prevUrl="/story/chapter-17"

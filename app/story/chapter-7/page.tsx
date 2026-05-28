@@ -16,7 +16,7 @@ export default function ChapterSeven() {
         chapterNumber="VII"
         title="Janelinhas e Sorrisos Banguelas"
         subtitle="A fase doce onde perder um dente era o maior evento da semana."
-        image="/images/7.jpeg"
+        image="/images/7.JPG"
         script={script}
         endingMessage="Mesmo com as janelinhas no sorriso, sua luz continuava intacta."
         prevUrl="/story/chapter-6"

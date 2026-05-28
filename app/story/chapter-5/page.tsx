@@ -15,7 +15,7 @@ export default function ChapterFive() {
       chapterNumber="V"
       title="Pequenos Grandes Reinos"
       subtitle="A época em que a realidade se dobrava diante da sua imaginação."
-      image="/images/5.jpeg"
+      image="/images/5.JPG"
       script={script}
       endingMessage="Você sempre soube governar o seu próprio mundinho com alegria."
       prevUrl="/story/chapter-4"

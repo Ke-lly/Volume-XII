@@ -16,7 +16,7 @@ export default function ChapterThirteen() {
         chapterNumber="XIII"
         title="O Espelho e o Mundo"
         subtitle="A fase única de se descobrir e criar o seu próprio estilo."
-        image="/images/13.jpeg"
+        image="/images/13.JPG"
         script={script}
         endingMessage="Dentre todas as versões que você testou, a sua essência foi a mais linda."
         prevUrl="/story/chapter-12"

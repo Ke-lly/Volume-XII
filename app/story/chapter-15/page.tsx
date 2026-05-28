@@ -16,7 +16,7 @@ export default function ChapterFifteen() {
         chapterNumber="XV"
         title="Quinze Primaveras"
         subtitle="Um dos marcos mais bonitos e celebrados da sua jornada."
-        image="/images/15.jpeg"
+        image="/images/15.JPG"
         script={script}
         endingMessage="O mundo inteiro se abriu para ver você florescer."
         prevUrl="/story/chapter-14"

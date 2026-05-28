@@ -16,7 +16,7 @@ export default function ChapterFourteen() {
         chapterNumber="XIV"
         title="Tempestades em Copo D'água"
         subtitle="Quando o coração é jovem e tudo é vivido na máxima intensidade."
-        image="/images/14.jpeg"
+        image="/images/14.jpg"
         script={script}
         endingMessage="Você passou pelas tempestades e aprendeu a dançar na chuva."
         prevUrl="/story/chapter-13"

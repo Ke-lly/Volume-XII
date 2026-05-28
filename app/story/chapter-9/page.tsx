@@ -16,7 +16,7 @@ export default function ChapterNine() {
         chapterNumber="IX"
         title="O Diário Invisível"
         subtitle="Quando os pensamentos ganham asas e um espaço todo seu."
-        image="/images/9.jpeg"
+        image="/images/9.JPG"
         script={script}
         endingMessage="Seu mundo interno sempre foi um lugar fascinante, Carol."
         prevUrl="/story/chapter-8"

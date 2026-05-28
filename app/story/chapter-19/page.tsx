@@ -16,7 +16,7 @@ export default function ChapterNineteen() {
         chapterNumber="XIX"
         title="Riscos e Rabiscos"
         subtitle="Entre erros e acertos, desenhando os contornos do próprio futuro."
-        image="/images/19.jpeg"
+        image="/images/19.jpg"
         script={script}
         endingMessage="A sua determinação começou a dar os frutos mais bonitos."
         prevUrl="/story/chapter-18"

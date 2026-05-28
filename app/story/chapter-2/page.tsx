@@ -14,7 +14,7 @@ export default function ChapterTwo() {
       chapterNumber="II"
       title="Crônicas da Protagonista"
       subtitle="Uma coleção de momentos dignos de uma personagem principal."
-      image="/images/chapter-2/1.jpg"
+      image="/images/2.jpg"
       script={script}
       endingMessage="Que a sua energia de personagem principal nunca perca o brilho."
       prevUrl="/story/chapter-1"
