@@ -25,7 +25,8 @@ export default function RootLayout({
         <GlowBackground />
         <GrainOverlay />
 
-        <main className="pt-24 md:pt-32 min-h-screen px-4">
+      
+<main className="min-h-screen">
   <PageTransition>
     {children}
   </PageTransition>

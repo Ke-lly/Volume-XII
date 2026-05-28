@@ -9,41 +9,41 @@ export default function LetterPage() {
   const router = useRouter();
 
   useEffect(() => {
-    // Verifica se a marcação de conclusão existe no navegador
     const hasCompleted = localStorage.getItem("storyCompleted");
     
     if (hasCompleted === "true") {
       setIsUnlocked(true);
     } else {
-      // Se não terminou, manda de volta para o capítulo 1
       router.push("/story/chapter-1");
     }
   }, [router]);
 
-  // Enquanto verifica o acesso, não mostra nada (ou você pode colocar um spinner de loading)
   if (!isUnlocked) return <div className="min-h-screen bg-[#0d0d0d]" />;
 
   return (
-    <main className="min-h-screen bg-[#0d0d0d] text-[#f5ebe0] px-8 pt-32 pb-20 overflow-hidden relative">
+    // Removi o overflow-hidden da main para garantir que nada seja cortado
+    <main className="min-h-screen bg-[#0d0d0d] text-[#f5ebe0] px-4 pt-28 pb-20 relative">
       {/* Glow */}
-      <div className="absolute w-[600px] h-[600px] bg-[#8c6a5d]/10 blur-3xl rounded-full top-[-200px] left-[-200px]" />
+      <div className="absolute w-[600px] h-[600px] bg-[#8c6a5d]/10 blur-3xl rounded-full top-[-200px] left-[-200px] pointer-events-none" />
 
       <motion.div
         initial={{ opacity: 0, scale: 0.96 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2 }}
-        className="max-w-3xl mx-auto relative z-10"
+        // Aumentei o max-width para 4xl e adicionei margem automática
+        className="w-full max-w-4xl mx-auto relative z-10"
       >
-        <div className="bg-[#151515]/90 border border-[#2a2a2a] backdrop-blur-xl rounded-[40px] p-10 md:p-16 shadow-2xl">
+        <div className="bg-[#151515]/90 border border-[#2a2a2a] backdrop-blur-xl rounded-[40px] p-8 md:p-16 shadow-2xl">
           <p className="uppercase tracking-[0.4em] text-sm text-[#d4c1a7]">
             Carta Selada
           </p>
 
-          <h1 className="text-5xl md:text-6xl font-serif mt-8">
+          {/* O h1 agora escala suavemente e tem 'break-words' para evitar cortes */}
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-serif break-words hyphens-auto mt-6 leading-tight">
             Para a protagonista desta história
           </h1>
 
-          <div className="mt-12 space-y-8 text-[#d8cdc0] leading-relaxed text-lg">
+          <div className="mt-12 space-y-8 text-[#d8cdc0] leading-relaxed text-lg md:text-xl">
             <p>
               Existem pessoas que passam pela vida.
               E existem pessoas que transformam a vida em algo mais bonito.
