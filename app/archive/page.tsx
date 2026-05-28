@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-// Lista com os títulos e descrições para cada um dos 22 capítulos
 const chaptersData = [
   { id: 1, title: "Era das Estrelas", desc: "Onde tudo começou entre risadas e sonhos." },
   { id: 2, title: "Crônicas da Protagonista", desc: "Momentos dignos de uma personagem principal." },
@@ -31,9 +30,10 @@ const chaptersData = [
 
 export default function ArchivePage() {
   return (
-    <main className="min-h-screen bg-[#111111] text-[#f5ebe0] px-8 py-20 relative overflow-hidden">
+    // 'pt-28' adiciona o espaço necessário para a Navbar não cobrir o botão 'Voltar'
+    <main className="min-h-screen bg-[#111111] text-[#f5ebe0] px-4 md:px-8 pt-28 pb-20 relative overflow-hidden">
       {/* Glow decorativo */}
-      <div className="absolute w-[500px] h-[500px] bg-[#8c6a5d]/10 blur-3xl rounded-full top-[-200px] right-[-100px]" />
+      <div className="absolute w-[500px] h-[500px] bg-[#8c6a5d]/10 blur-3xl rounded-full top-[-200px] right-[-100px] pointer-events-none" />
 
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -41,28 +41,28 @@ export default function ArchivePage() {
         transition={{ duration: 1 }}
         className="relative z-10 max-w-5xl mx-auto"
       >
-        <Link href="/" className="text-[#d4c1a7] hover:text-white transition">
+        <Link href="/" className="inline-block text-[#d4c1a7] hover:text-white transition mb-6">
           ← Voltar para a Home
         </Link>
 
-        <h1 className="text-6xl mt-10 font-serif">O Arquivo</h1>
-        <p className="mt-6 text-[#cfc2b4] text-lg">
+        <h1 className="text-4xl md:text-6xl font-serif">O Arquivo</h1>
+        <p className="mt-4 text-[#cfc2b4] text-lg max-w-lg">
           Fragmentos de memórias cuidadosamente preservados.
         </p>
 
         {/* Grid de memórias (os 22 cards) */}
-        <div className="grid md:grid-cols-2 gap-8 mt-16">
+        <div className="grid md:grid-cols-2 gap-6 mt-12">
           {chaptersData.map((chapter) => (
             <Link key={chapter.id} href={`/story/chapter-${chapter.id}`}>
               <motion.div
-                whileHover={{ scale: 1.03 }}
-                className="border border-[#2a2a2a] bg-[#171717] rounded-3xl p-8 h-full cursor-pointer hover:border-[#d4c1a7]/50 transition-all"
+                whileHover={{ scale: 1.02 }}
+                className="border border-[#2a2a2a] bg-[#171717] rounded-3xl p-6 md:p-8 h-full cursor-pointer hover:border-[#d4c1a7]/50 transition-all"
               >
-                <p className="uppercase text-sm tracking-[0.3em] text-[#d4c1a7]">
+                <p className="uppercase text-xs tracking-[0.2em] text-[#d4c1a7]">
                   Capítulo {chapter.id}
                 </p>
-                <h2 className="text-3xl mt-4 font-serif">{chapter.title}</h2>
-                <p className="mt-4 text-[#cfc2b4]">{chapter.desc}</p>
+                <h2 className="text-2xl md:text-3xl mt-3 font-serif">{chapter.title}</h2>
+                <p className="mt-3 text-[#cfc2b4] text-sm md:text-base">{chapter.desc}</p>
               </motion.div>
             </Link>
           ))}
